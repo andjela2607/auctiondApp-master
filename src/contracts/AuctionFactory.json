@@ -1,0 +1,60 @@
+{
+  "contractName": "AuctionFactory",
+  "abi": [
+{
+  "inputs": [
+    {
+      "internalType": "uint256",
+      "name": "",
+      "type": "uint256"
+    }
+  ],
+  "name": "auctions",
+  "outputs": [
+    {
+      "internalType": "contract Auction",
+      "name": "",
+      "type": "address"
+    }
+  ],
+  "stateMutability": "view",
+  "type": "function"
+},
+{
+  "inputs": [
+    {
+      "internalType": "uint256",
+      "name": "biddingTime",
+      "type": "uint256"
+    },
+    {
+      "internalType": "address payable",
+      "name": "beneficiary",
+      "type": "address"
+    },
+    {
+      "internalType": "string",
+      "name": "secret",
+      "type": "string"
+    }
+  ],
+  "name": "createAuction",
+  "outputs": [],
+  "stateMutability": "nonpayable",
+  "type": "function"
+},
+{
+  "inputs": [],
+  "name": "getAllAuctions",
+  "outputs": [
+    {
+      "internalType": "contract Auction[]",
+      "name": "",
+      "type": "address[]"
+    }
+  ],
+  "stateMutability": "view",
+  "type": "function"
+}
+]
+}
